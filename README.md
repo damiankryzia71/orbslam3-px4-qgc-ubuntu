@@ -76,11 +76,18 @@ sudo reboot
 ```
 
 ### 5. Install ORB-SLAM3
+First, clone the ORB-SLAM3 repository.
 ```bash
 cd ~/Desktop
 git clone https://github.com/UZ-SLAMLab/ORB_SLAM3.git
 cd ORB_SLAM3
 git checkout c++14_comp
+```
+Open the `CMakeLists.txt` file in the main directory and change this line to the version of your installed OpenCV. In my case, it's 4.2.0.
+```cmake
+CMAKE CMAKE CMAKE
+```
+```bash
 chmod +x build.sh
 ./build.sh
 ```
