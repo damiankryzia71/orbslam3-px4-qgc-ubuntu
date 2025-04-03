@@ -1,4 +1,4 @@
-# PX4, Gazebo, QGroundControl, and ORB-SLAM3 setup on native installation of Ubuntu 22
+# PX4, Gazebo, QGroundControl, and ORB-SLAM3 setup on native installation of Ubuntu 20
 
 Before starting, install git.
 ```bash
