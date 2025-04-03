@@ -57,6 +57,7 @@ sudo reboot
 
 ### 4. Install Pangolin with all of its dependencies
 ```bash
+sudo apt install libglew-dev
 cd ~/Desktop
 git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin
