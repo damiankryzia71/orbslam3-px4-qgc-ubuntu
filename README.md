@@ -85,7 +85,10 @@ git checkout c++14_comp
 ```
 Open the `CMakeLists.txt` file in the main directory and change this line to the version of your installed OpenCV. In my case, it's 4.2.0.
 ```cmake
-CMAKE CMAKE CMAKE
+find_package(OpenCV 4.4)
+   if(NOT OpenCV_FOUND)
+      message(FATAL_ERROR "OpenCV > 4.4 not found.")
+   endif()
 ```
 Then, build ORB-SLAM3.
 ```bash
