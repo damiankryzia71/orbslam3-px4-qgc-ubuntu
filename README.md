@@ -51,7 +51,7 @@ First, run QGroundControl as described in the previous step.
 Then, run this command.
 ```bash
 cd ~/Desktop/PX4-Autopilot
-make px4_sitl gz_x500
+make px4_sitl gz_x500_depth
 ```
 Gazebo should open and QGroundControl should connect. The UAV is now ready to fly.
 
