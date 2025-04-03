@@ -60,8 +60,8 @@ sudo reboot
 cd ~/Desktop
 git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin
-git checkout v0.9.3
-git switch -c v0.9.3
+git checkout v0.6
+git switch -c v0.6
 ./scripts/install_prerequisites.sh -m apt all
 cmake -B build
 cd build
