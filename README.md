@@ -87,6 +87,7 @@ Open the `CMakeLists.txt` file in the main directory and change this line to the
 ```cmake
 CMAKE CMAKE CMAKE
 ```
+Then, build ORB-SLAM3.
 ```bash
 chmod +x build.sh
 ./build.sh
