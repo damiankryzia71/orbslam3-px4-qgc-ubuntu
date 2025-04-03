@@ -42,11 +42,6 @@ chmod +x QGroundControl.AppImage
 ```
 
 ### 3. Build PX4 with Gazebo simulation.
-NOTE: Run this if you are using a VM.
-```bash
-echo "export SVGA_VGPU10=0" >> ~/.bashrc
-echo "export LIBGL_DRI3_DISABLE=1" >> ~/.bashrc
-```
 First, run QGroundControl as described in the previous step.
 Then, run this command.
 ```bash
